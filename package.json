@@ -4,7 +4,12 @@
   "description": "for sandbox server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endlessXD/Sandbox-Server-Bot"
   },
   "author": "endless",
   "license": "ISC",
@@ -12,5 +17,9 @@
     "axios": "^0.21.1",
     "discord.js": "^12.5.1",
     "fs": "0.0.1-security"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/endlessXD/Sandbox-Server-Bot/issues"
+  },
+  "homepage": "https://github.com/endlessXD/Sandbox-Server-Bot#readme"
 }
