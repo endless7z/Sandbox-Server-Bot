@@ -1,0 +1,16 @@
+{
+  "name": "diep-bot-v2",
+  "version": "2.0.0",
+  "description": "for sandbox server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "endless",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security"
+  }
+}
