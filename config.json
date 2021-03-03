@@ -1,0 +1,11 @@
+{
+    "token": "",
+    "prefix": "",
+
+    "id": {
+        "channel": "",
+        "role": ""
+    },
+
+    "port": 3000
+}
