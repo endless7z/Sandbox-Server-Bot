@@ -6,7 +6,11 @@ const { Bot } = require('../utils/Bot');
 module.exports = {
   run(message) {
     function getUser(user) {
-      return message.client.users.cache.get(user).tag;
+      try {
+        return message.client.users.cache.get(user).tag
+      } catch(e) {
+        return 'Unknown';
+      };
     };
 
     var number = 0;
