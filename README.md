@@ -19,6 +19,6 @@ Discord bot for Sandbox Server
     "port": 3000  // Port for Server to Listen on
 }
 ```
-# Note
+# Extra Notes
 * Made specifically for ***one*** server
 * h best letter
