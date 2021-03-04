@@ -6,4 +6,5 @@ Discord bot for Sandbox Server
 * Authorize People to Blacklist/Whitelist Users
 * Get a List of Diep Servers
 # Note
-Made Specifically for ***one*** server
+* Made Specifically for ***one*** server
+* h best letter
