@@ -13,8 +13,11 @@ Located in [config.json](https://github.com/endlessXD/Sandbox-Server-Bot/blob/ma
     "prefix": "",  // Prefix Here
 
     "id": {
-        "channel": "",  // Channel ID to Post Sandbox Links in
-        "role": ""      // Role ID to Mention
+        "channel": [
+            "",   // Channel to Post Sandbox Links in
+            ""    // Ideas Channel to React in
+        ],
+        "role": ""   // Role ID to Mention
     },
 
     "port": 3000  // Port for Server to Listen on
