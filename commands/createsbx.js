@@ -69,8 +69,8 @@ module.exports = {
         ]
       };
 
-      client.channels.cache.get(id.channel).send(`<@&${id.role}>`);
-      client.channels.cache.get(id.channel).send({ embed: embed }).then(
+      client.channels.cache.get(id.channel[0]).send(`<@&${id.role}>`);
+      client.channels.cache.get(id.channel[0]).send({ embed: embed }).then(
         sandbox => {
           cooldown.push(message.author.id);
 
