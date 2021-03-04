@@ -6,6 +6,7 @@ Discord bot for Sandbox Server
 * Authorize People to Blacklist/Whitelist Users
 * Get a List of Diep Servers
 # Settings
+Located in [config.json](https://github.com/endlessXD/Sandbox-Server-Bot/blob/main/config.json)
 ```jsonc
 {
     "token": "",   // Bot Token Here
