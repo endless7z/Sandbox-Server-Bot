@@ -1,11 +1,11 @@
-const Discord = require('discord.js');
+const { Client } = require('discord.js');
 const { token, prefix } = require('./config.json');
 const { Bot } = require('./utils/Bot');
 
 const { blacklisted } = require('./data/blacklisted.json');
 const { Color } = require('./utils/Design');
 
-const client = new Discord.Client({
+const client = new Client({
   ws: {
     properties: {
       $browser: 'Discord iOS'
