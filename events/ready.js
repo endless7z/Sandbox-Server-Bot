@@ -3,7 +3,7 @@ const { Color } = require('../utils/Design');
 
 module.exports = {
   run(client, commands) {
-    process.title == 'endless OP';
+    process.title = 'endless OP';
     Color.log('Loading Commands...');
 
     const files = FileSystem.readdirSync('./commands').filter(file => file.endsWith('.js'));
